@@ -23,5 +23,12 @@ namespace Project
         {
             InitializeComponent();
         }
+
+        private void previousButton(object sender, RoutedEventArgs e)
+        {
+            var newForm = new selectPage();
+            newForm.Show();
+            this.Close();
+        }
     }
 }
