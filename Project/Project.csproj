@@ -70,10 +70,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="egePage.xaml.cs">
+    <Compile Include="pages\olympPage.xaml.cs">
+      <DependentUpon>olympPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\schoolPage.xaml.cs">
+      <DependentUpon>schoolPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pages\egePage.xaml.cs">
       <DependentUpon>egePage.xaml</DependentUpon>
     </Compile>
-    <Page Include="selectPage.xaml">
+    <Page Include="pages\olympPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pages\schoolPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="pages\selectPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -81,11 +95,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="selectPage.xaml.cs">
+    <Compile Include="pages\selectPage.xaml.cs">
       <DependentUpon>selectPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="egePage.xaml">
+    <Page Include="pages\egePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

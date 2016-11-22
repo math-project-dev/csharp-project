@@ -10,27 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Project
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class selectPage : Window
+    public partial class olympPage : Window
     {
-        public selectPage()
+        public olympPage()
         {
             InitializeComponent();
-
-        }
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationWindow window = new NavigationWindow();
-            window.Source = new Uri("egePage.xaml", UriKind.Relative);
-            window.Show();
         }
     }
- }
-
+}

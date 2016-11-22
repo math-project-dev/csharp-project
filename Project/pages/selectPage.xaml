@@ -12,19 +12,19 @@
 
         <Label x:Name="firstLabel" Content="ЭЛЕКТРОННОЕ ПОСОБИЕ ПО МАТЕМАТИКЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="502" FontFamily="Helvetica LT Std Bold" Margin="356,46,0,0" Foreground="White" FontSize="22"/>
         <Label x:Name="secondLabel" Content="СПРАВОЧНО-ОБУЧАЮЩЕЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="310" FontFamily="Helvetica LT Std Bold" Margin="458,16,0,0" Foreground="White" FontSize="22"/>
-        <Image x:Name="compImage" Margin="182,161,0,37" Source="images/compImage.png" Stretch="Fill" HorizontalAlignment="Left" Width="1064"/>
+        <Image x:Name="compImage" Margin="182,161,0,37" Source="../images/compImage.png" Stretch="Fill" HorizontalAlignment="Left" Width="1064"/>
 
-        <Button x:Name="schooButton" HorizontalAlignment="Left" Margin="356,281,0,0" VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press">
-            <Image x:Name="schoolPNG" Height="115" Source="images/schoolImage.png" Stretch="Fill" Width="115" Cursor="Hand"/>
+        <Button x:Name="schooButton" HorizontalAlignment="Left" Margin="356,281,0,0" Click="buttonSchool" VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press">
+            <Image x:Name="schoolPNG" Height="115" Source="../images/schoolImage.png" Stretch="Fill" Width="115" Cursor="Hand"/>
 
         </Button>
-        <Button x:Name="schoolButton2" HorizontalAlignment="Left" Margin="561,281,0,0" Click="Button_Click"  VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press" Cursor="Hand">
-            <Image x:Name="egePNG"  Source="images/egeImage.png" Stretch="Fill"/>
+        <Button x:Name="schoolButton2" HorizontalAlignment="Left" Margin="561,281,0,0" Click="buttonEge"  VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press" Cursor="Hand">
+            <Image x:Name="egePNG"  Source="../images/egeImage.png" Stretch="Fill"/>
         </Button>
 
 
-        <Button x:Name="schoolButton3" HorizontalAlignment="Left" Margin="765,281,0,0" VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press" Cursor="Hand">
-            <Image x:Name="olympPNG"  Source="images/olympImage.png" Stretch="Fill" />
+        <Button x:Name="schoolButton3" HorizontalAlignment="Left" Margin="765,281,0,0" Click="buttonOlymp" VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press" Cursor="Hand">
+            <Image x:Name="olympPNG"  Source="../images/olympImage.png" Stretch="Fill" />
         </Button>
 
         <Label x:Name="schoolText" Content="ШКОЛЬНЫЙ КУРС" HorizontalAlignment="Left" Margin="355,403,0,0" VerticalAlignment="Top" FontFamily="Helvetica LT Std Bold"/>
