@@ -10,8 +10,8 @@
     <Grid Background="#FF1E6D74" Width="1280" Height="768">
         <Rectangle Fill="#015C65" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1280"/>
 
-        <Label x:Name="firstLabel" Content="ЭЛЕКТРОННОЕ ПОСОБИЕ ПО МАТЕМАТИКЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="43" Width="502" FontFamily="Segoe UI Black" Margin="370,48,0,0" Foreground="White" FontSize="22"/>
-        <Label x:Name="secondLabel" Content="СПРАВОЧНО-ОБУЧАЮЩЕЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="333" FontFamily="Segoe UI Black" Margin="465,17,0,0" Foreground="White" FontSize="22"/>
+        <Label x:Name="firstLabel" Content="  ЭЛЕКТРОННОЕ ПОСОБИЕ ПО МАТЕМАТИКЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45" Width="529" FontFamily="Segoe UI Black" Margin="356,49,0,0" Foreground="White" FontSize="22"/>
+        <Label x:Name="secondLabel" Content=" СПРАВОЧНО-ОБУЧАЮЩЕЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="333" FontFamily="Segoe UI Black" Margin="458,18,0,0" Foreground="White" FontSize="22"/>
         <Image x:Name="compImage" Margin="183,159,0,39" Source="../images/compImage.png" Stretch="Fill" HorizontalAlignment="Left" Width="1064"/>
 
         <Button x:Name="schooButton" HorizontalAlignment="Left" Margin="356,281,0,0" Click="buttonSchool" VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press">
