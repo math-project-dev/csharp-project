@@ -1,3 +1,4 @@
 bin/Debug/Project.exe
 bin/
 obj/
+*.suo

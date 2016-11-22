@@ -18,23 +18,18 @@ namespace Project
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class selectPage : Window
     {
-        public MainWindow()
+        public selectPage()
         {
             InitializeComponent();
 
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService nav = NavigationService.GetNavigationService(this);
-            nav.Navigate(new System.Uri("egePage.xaml", UriKind.RelativeOrAbsolute));
-        }
-        private void Button_Olymp_Clicl(object sender, RoutedEventArgs e )
-        {
-            NavigationService nav = NavigationService.GetNavigationService(this);
-            nav.Navigate(new System.Uri("egePage.xaml", UriKind.RelativeOrAbsolute));
+            NavigationWindow window = new NavigationWindow();
+            window.Source = new Uri("egePage.xaml", UriKind.Relative);
+            window.Show();
         }
     }
  }
