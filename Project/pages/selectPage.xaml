@@ -10,9 +10,9 @@
     <Grid Background="#FF1E6D74" Width="1280" Height="768">
         <Rectangle Fill="#015C65" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1280"/>
 
-        <Label x:Name="firstLabel" Content="ЭЛЕКТРОННОЕ ПОСОБИЕ ПО МАТЕМАТИКЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="502" FontFamily="Helvetica LT Std Bold" Margin="356,46,0,0" Foreground="White" FontSize="22"/>
-        <Label x:Name="secondLabel" Content="СПРАВОЧНО-ОБУЧАЮЩЕЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="310" FontFamily="Helvetica LT Std Bold" Margin="458,16,0,0" Foreground="White" FontSize="22"/>
-        <Image x:Name="compImage" Margin="182,161,0,37" Source="../images/compImage.png" Stretch="Fill" HorizontalAlignment="Left" Width="1064"/>
+        <Label x:Name="firstLabel" Content="ЭЛЕКТРОННОЕ ПОСОБИЕ ПО МАТЕМАТИКЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="43" Width="502" FontFamily="Segoe UI Black" Margin="370,48,0,0" Foreground="White" FontSize="22"/>
+        <Label x:Name="secondLabel" Content="СПРАВОЧНО-ОБУЧАЮЩЕЕ" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="333" FontFamily="Segoe UI Black" Margin="465,17,0,0" Foreground="White" FontSize="22"/>
+        <Image x:Name="compImage" Margin="183,159,0,39" Source="../images/compImage.png" Stretch="Fill" HorizontalAlignment="Left" Width="1064"/>
 
         <Button x:Name="schooButton" HorizontalAlignment="Left" Margin="356,281,0,0" Click="buttonSchool" VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press">
             <Image x:Name="schoolPNG" Height="115" Source="../images/schoolImage.png" Stretch="Fill" Width="115" Cursor="Hand"/>
@@ -27,9 +27,9 @@
             <Image x:Name="olympPNG"  Source="../images/olympImage.png" Stretch="Fill" />
         </Button>
 
-        <Label x:Name="schoolText" Content="ШКОЛЬНЫЙ КУРС" HorizontalAlignment="Left" Margin="355,403,0,0" VerticalAlignment="Top" FontFamily="Helvetica LT Std Bold"/>
-        <Label x:Name="egeText" Content="ЕГЭ 2017" HorizontalAlignment="Left" Margin="590,403,0,0" VerticalAlignment="Top" FontFamily="Helvetica LT Std Bold"/>
-        <Label x:Name="olympText" Content="ОЛИМПИАДА" HorizontalAlignment="Left" Margin="781,403,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.385" FontFamily="Helvetica LT Std Bold"/>
+        <Label x:Name="schoolText" Content=" ШКОЛЬНЫЙ КУРС" HorizontalAlignment="Left" Margin="356,405,0,0" VerticalAlignment="Top" Width="120" FontFamily="Segoe UI Semibold" FontSize="12" Height="25"/>
+        <Label x:Name="egeText" Content="ЕГЭ 2017" HorizontalAlignment="Left" Margin="591,404,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="12"/>
+        <Label x:Name="olympText" Content="ОЛИМПИАДА" HorizontalAlignment="Left" Margin="781,404,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.385" FontFamily="Segoe UI Semibold" FontSize="12"/>
     </Grid>
 
 
@@ -57,7 +57,7 @@
             <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
         </Style>
     </Window.Resources>
-   
+
 </Window>
     
     
