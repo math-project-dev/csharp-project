@@ -15,7 +15,7 @@
         <Image x:Name="compImage" Margin="183,159,0,39" Source="../images/compImage.png" Stretch="Fill" HorizontalAlignment="Left" Width="1064"/>
 
         <Button x:Name="schooButton" HorizontalAlignment="Left" Margin="356,281,0,0" Click="buttonSchool" VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press">
-            <Image x:Name="schoolPNG" Height="115" Source="../images/schoolImage.png" Stretch="Fill" Width="115" Cursor="Hand"/>
+            <Image x:Name="schoolPNG" Height="123" Source="../images/schoolImage.png" Stretch="Fill" Cursor="Hand"/>
 
         </Button>
         <Button x:Name="schoolButton2" HorizontalAlignment="Left" Margin="561,281,0,0" Click="buttonEge"  VerticalAlignment="Top" Width="120" Height="123" Foreground="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" BorderThickness="0" ClickMode="Press" Cursor="Hand">
